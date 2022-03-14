@@ -17,7 +17,7 @@ Download the zip and you will find the following components in file:
 <pre>
 1) <b><i>src/*</b></i> : Contains the source code and the source srt file(links.srt) which contains millions of links(56MiB compressed, 245 MiB uncompressed).
            a)pageRank.py
-           b)links.srt
+           b)newLinks.srt (The original file had about 5 million+ entries, I had to upload a test version with around 10K entries)
               
    2) <b><i>inlinks.txt</b></i> : A text file with the top 100 pages by number of inlinks, with the title (source URL), rank (1..100), and inlink count on each line.
    3) <b><i>pagerank.txt</b></i> :A text file with the top 100 pages by their PageRank, with title (source URL), rank (1..100) and score on each line.
