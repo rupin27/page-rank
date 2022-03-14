@@ -49,21 +49,20 @@ Lamda(0.20): Lamda is a measure of proportional reduction in error in cross tabu
 1) <b><i>pageRank.py</b></i> : The file imports the test file and processes the link. A link is represented as a pair (x, y) where x and y 
                      are the source and destination pages respectively. Dangling links are assumed to be removed. 
                      Ranksinks accumulate pagerank but do not distribute it. Also, we have assumed that pages link to all other pages in the collection.
-<pre>
-      a) <b><i>Inlinks</b></i>:
-                To Web page x, an inlink is a URL of another Web page which contains a link pointing to x.
-                Makes the use of standard libraries in Python. (https://docs.python.org/3/library/).
-                Counter() creates a hash-map for the data container invoked with it which is very useful than by manual processing of elements. 
-                Counts the outgoing links for each page and returns the top 100 links in terms of inlinks in 
-                descending order.
-</pre>  
-<pre>
-      b) <b><i>Page Rank</b></i>:
-                We start of by calculating the probabilities for every function such that they are equally likely 
-                to be selected. Then we calculate the uique probabilty of each page. (lambda / probabilty of random selection).
-                Then we calculate the sum of probabilities page by page and apply the R operation and find it's rank until the value of R converges.
-                We write these values into the output file(pagerank.txt) and return it.  
-</pre>
+<br></br>
+a) <b><i>Inlinks</b></i>:
+     To Web page x, an inlink is a URL of another Web page which contains a link pointing to x.
+     Makes the use of standard libraries in Python. (https://docs.python.org/3/library/).
+     Counter() creates a hash-map for the data container invoked with it which is very useful than by manual processing of elements. 
+     Counts the outgoing links for each page and returns the top 100 links in terms of inlinks in 
+     descending order.
+
+
+b) <b><i>Page Rank</b></i>:
+     We start of by calculating the probabilities for every function such that they are equally likely 
+     to be selected. Then we calculate the uique probabilty of each page. (lambda / probabilty of random selection).
+     Then we calculate the sum of probabilities page by page and apply the R operation and find it's rank until the value of R converges.
+     We write these values into the output file(pagerank.txt) and return it.  
 </div>
    
 # Running the Code:
